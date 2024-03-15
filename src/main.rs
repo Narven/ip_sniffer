@@ -70,6 +70,8 @@ fn main() {
         }
     });
 
+    println!("Flag {}", arguments.flag);
+
     let num_threads = arguments.threads;
     let addr = arguments.ipaddr;
     let (tx, rx) = channel();
